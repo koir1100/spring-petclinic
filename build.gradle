@@ -48,7 +48,7 @@ dependencies {
   testImplementation 'org.springframework.boot:spring-boot-testcontainers'
   testImplementation 'org.springframework.boot:spring-boot-docker-compose'
   testImplementation 'org.testcontainers:junit-jupiter'
-  testImplementation 'org.testcontainers:mysql'
+  testImplementation 'org.testcontainers:mariadb'
   checkstyle 'io.spring.javaformat:spring-javaformat-checkstyle:0.0.41'
   checkstyle 'com.puppycrawl.tools:checkstyle:10.12.5'
 }
